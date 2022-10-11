@@ -76,4 +76,6 @@ typedef struct listint_s
 
 [bubble_sort](./0-bubble_sort.c) - A simple sorting algorithm that repeatedly steps through the input list element by element, comparing the current element with the one after it, swapping their values if needed.
 
+[insertion_sort_list](./1-insertion_sort_list.c) - sorts a doubly linked list of integers in ascending order using the Insertion sort algorithm
+
 [selection_sort](./2-selection_sort.c.c) - Sorts an array by repeatedly finding the minimum element (considering ascending order) from the unsorted part and putting it at the beginning.
