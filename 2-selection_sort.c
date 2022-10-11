@@ -27,6 +27,8 @@ void selection_sort(int *array, size_t size)
 	size_t idx, idx2;
 	int *tmp;
 
+	if (!array || szie < 2)
+		return;
 	for (idx = 0; idx  < size - 1; idx++)
 	{
 		tmp = array + idx;
